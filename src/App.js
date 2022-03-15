@@ -10,7 +10,7 @@ function App() {
          <Router>
                 <Routes>
                   <Route className='navigation' element={<NavBar/>}/>
-                  <Route exact path='/' element={<DataFetch/>}/>
+                  <Route exact path='/'element={<DataFetch/>}/>
                 </Routes>
             </Router>
       </div>
