@@ -19,9 +19,9 @@ const DataFetch = () => {
         })
     }, )
 
-    const refreshPage = () => {
-        window.location.href=window.location.href;
-    }
+    // const refreshPage = () => {
+    //     window.location.href=window.location.href;
+    // }
 
     return (
         <div className='webPage'>
@@ -35,7 +35,7 @@ const DataFetch = () => {
                     <span>{artist}</span>
                 </p>
         </div>
-        <button className='button' onClick={refreshPage}>Refresh</button>
+        {/* <button className='button' onClick={refreshPage}>Refresh</button> */}
         </div>
     )
 }

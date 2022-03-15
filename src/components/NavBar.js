@@ -1,6 +1,6 @@
 import React from 'react';
-import '../components/index.css';
-import { Link } from 'gatsby';
+import '../index.css';
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (

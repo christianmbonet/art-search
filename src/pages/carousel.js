@@ -7,7 +7,7 @@ import i4 from '../images/diego.jpeg';
 import i5 from '../images/lovers.jpeg';
 import i6 from '../images/rem.jpeg';
 import i7 from '../images/wave.jpeg';
-import '../components/index.css';
+import '../index.css';
 
 const Carousel = () => {
     let carouselArr = [
