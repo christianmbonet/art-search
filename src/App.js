@@ -8,8 +8,9 @@ function App() {
     return (
       <div className='webPage'>
          <Router>
+           <NavBar/>
+         {/* <Route className='navigation' element={<NavBar/>}/> */}
                 <Routes>
-                  <Route className='navigation' element={<NavBar/>}/>
                   <Route exact path='/'element={<DataFetch/>}/>
                 </Routes>
             </Router>
