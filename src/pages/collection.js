@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import '../index.css';
 import rem from '../images/rem.jpeg';
 import diego from '../images/diego.jpeg';
@@ -8,7 +7,6 @@ import angel from '../images/angel.jpeg';
 const Collection = () => {
     return (
         <div>
-            <NavBar/>
             <div className='collectionPage'>
             <div className='collectionImageContainer'>
             <div className='images'>

@@ -1,11 +1,9 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import Wave from '../images/wave.jpeg'
 
 const Display = () => {
     return (
         <div>
-            <NavBar/>
             <div className='imageDisplay'>
                 <img className='wave' src={Wave} alt='hokusaiWave'></img>
             </div>
