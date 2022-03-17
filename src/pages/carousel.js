@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import angel from '../images/angel.jpeg';
+import i1 from '../images/angel.jpeg';
 import i2 from '../images/caballo.jpeg';
 import i3 from '../images/degas.jpeg';
 import i4 from '../images/diego.jpeg';
@@ -10,7 +10,7 @@ import '../index.css';
 const Carousel = () => {
     let carouselArr = [
     <div>
-        <img className='angel' src={angel} alt='angelGabriel'/>
+        <img className='angel' src={i1} alt='angelGabriel'/>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Botticelli</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Annunciation</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>1485-1492</div>
@@ -49,13 +49,15 @@ const Carousel = () => {
 ];
     const [carousel, setCarousel] = useState(0);
     const goLeft = () => {
+        console.log(carousel);
         // setCarousel(carousel + 100);
-        carousel === 0 ? setCarousel(-100 * carouselArr.length - 1) : setCarousel(carousel + 100);
+        carousel === 0 ? setCarousel(-100 * (carouselArr.length - 1)) : setCarousel(carousel + 100);
         
     };
 
     const goRight = () => {
         // setCarousel(carousel - 100);
+        console.log(carousel);
         (carousel === -100 * (carouselArr.length - 1)) ? setCarousel(0) : setCarousel(carousel - 100);
     };
 
