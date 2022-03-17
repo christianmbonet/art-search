@@ -45,18 +45,17 @@ const Carousel = () => {
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Rembrandt</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>Aristotle with a Bust of Homer</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>1653</div>
-    </div>,
-
+    </div>
 ];
     const [carousel, setCarousel] = useState(0);
     const goLeft = () => {
-        setCarousel(carousel + 100);
-        // (carousel === 100 * (carouselArr.length - 1)) ? setCarousel(0) : setCarousel(carousel + 100);
+        // setCarousel(carousel + 100);
+        carousel === 0 ? setCarousel(-100 * carouselArr.length - 1) : setCarousel(carousel + 100);
         
     };
 
     const goRight = () => {
-        setCarousel(carousel - 100);
+        // setCarousel(carousel - 100);
         (carousel === -100 * (carouselArr.length - 1)) ? setCarousel(0) : setCarousel(carousel - 100);
     };
 
