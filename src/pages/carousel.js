@@ -5,7 +5,6 @@ import i3 from '../images/degas.jpeg';
 import i4 from '../images/diego.jpeg';
 import i5 from '../images/lovers.jpeg';
 import i6 from '../images/rem.jpeg';
-import i7 from '../images/wave.jpeg';
 import '../index.css';
 
 const Carousel = () => {
@@ -52,6 +51,8 @@ const Carousel = () => {
     const [carousel, setCarousel] = useState(0);
     const goLeft = () => {
         setCarousel(carousel + 100);
+        // (carousel === 100 * (carouselArr.length - 1)) ? setCarousel(0) : setCarousel(carousel + 100);
+        
     };
 
     const goRight = () => {
@@ -71,8 +72,8 @@ const Carousel = () => {
                 );
             })}
             <div className='directionalArrows'>
-                <button className='leftArrow' onClick={goLeft}>Left</button>
-                <button className='rightArrow' onClick={goRight}>Right</button>
+                <button className='leftArrow' onClick={goLeft}><span>&#8592;</span></button>
+                <button className='rightArrow' onClick={goRight}><span>&#8594;</span></button>
             </div>
             </div>
         </div>
