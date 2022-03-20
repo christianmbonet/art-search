@@ -50,13 +50,11 @@ const Carousel = () => {
     const [carousel, setCarousel] = useState(0);
     const goLeft = () => {
         console.log(carousel);
-        // setCarousel(carousel + 100);
         carousel === 0 ? setCarousel(-100 * (carouselArr.length - 1)) : setCarousel(carousel + 100);
         
     };
 
     const goRight = () => {
-        // setCarousel(carousel - 100);
         console.log(carousel);
         (carousel === -100 * (carouselArr.length - 1)) ? setCarousel(0) : setCarousel(carousel - 100);
     };

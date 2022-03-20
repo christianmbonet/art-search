@@ -30,17 +30,6 @@ p {
     color: yellowgreen;
 }
 
-.homeButton {
-
-}
-
-.displayButton {
-}
-
-.collectionButton {
-    
-}
-
 .webPage {
     display: flex;
     flex-direction: column;
@@ -93,9 +82,10 @@ p {
     margin: 20px;
     border: solid 3px hotpink;
     border-radius: 25px;
-    background-color: darkslategrey;
+    background-color: darkslategray;
     color: yellowgreen;
-    font-size: 14px
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .home {
