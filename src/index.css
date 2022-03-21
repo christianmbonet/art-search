@@ -274,11 +274,11 @@ p {
     top: 50%;
     transform: translateY(-50%);
     height: 50px;
-    background-color: black;
-    color: white;
+    background-color: darkslategrey;
+    color: yellowgreen;
     font-size: 20px;
     border-radius: 5px;
-    border: solid lightgray 2px;
+    border: solid hotpink 2px;
     width: 5%;
     margin: 30px;
 }
@@ -289,11 +289,11 @@ p {
     top: 50%;
     transform: translateY(-50%);
     height: 50px;
-    background-color: black;
-    color: white;
+    background-color: darkslategrey;
+    color: yellowgreen;
     font-size: 20px;
     border-radius: 5px;
-    border: solid lightgray 2px;
+    border: solid hotpink 2px;
     width: 5%;
     margin: 30px;
 }
