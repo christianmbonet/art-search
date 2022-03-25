@@ -18,7 +18,8 @@ const Display = () => {
 
     return (
         <div>
-            <div alt='image'>{image}</div>
+            hello
+            <div alt='image' className='image'>{image}</div>
             {/* <div className='imageDisplay'>
                 <img className='wave' src={Wave} alt='hokusaiWave'></img>
             </div>

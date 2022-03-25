@@ -283,6 +283,10 @@ p {
     margin: 30px;
 }
 
+.image {
+    color: white;
+}
+
 .rightArrow {
     right: 0;
     position: absolute;
