@@ -19,6 +19,10 @@ Using the Art Institute of Chicago API and public domain artworks to build a sit
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## API - The Art Institute of Chicago
+
+https://api.artic.edu/api/v1/artworks
+
 ## Dependencies
 
 * axios: ^0.26.0
