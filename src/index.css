@@ -13,6 +13,10 @@ p {
     width: 100%;
 }
 
+.span {
+    color: yellowgreen;
+}
+
 .nav {
     display: flex;
     justify-content: space-around;

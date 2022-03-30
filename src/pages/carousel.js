@@ -11,40 +11,52 @@ const Carousel = () => {
     let carouselArr = [
     <div>
         <img className='angel' src={i1} alt='angelGabriel'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Botticelli</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Annunciation</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>1485-1492</div>
+        </div>
     </div>,
     <div>
         <img className='caballoImage' src={i2} alt='horse'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Han Gan</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Night Shining White</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>750</div>
+        </div>
     </div>,
     <div>
         <img className='degasImage' src={i3} alt='degasDanceClass'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Edgar Degas</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Dance Class</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>1874</div>
+        </div>
     </div>,
     <div>
         <img className='diego' src={i4} alt='juanDePareja'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Diego Velazquez</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Juan de Pareja</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>1650</div>
+        </div>
     </div>,
     <div>
         <img className='loversImage' src={i5} alt='abassiLovers'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Riza-yi'Abassi</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>The Lovers</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>A.D. 1630</div>
+        </div>
     </div>
     ,
     <div>
         <img className='rem' src={i6} alt='rembrandtHomer'/>
+        <div className='collectionLabel'>
         <div><span className='titleBoldCollection'>Artist:&nbsp;</span>Rembrandt</div>
         <div><span className='titleBoldCollection'>Title:&nbsp;</span>Aristotle with a Bust of Homer</div>
         <div><span className='titleBoldCollection'>Date:&nbsp;</span>1653</div>
+        </div>
     </div>
 ];
     const [carousel, setCarousel] = useState(0);
