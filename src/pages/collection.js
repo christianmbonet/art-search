@@ -3,6 +3,7 @@ import '../index.css';
 import rem from '../images/rem.jpeg';
 import diego from '../images/diego.jpeg';
 import angel from '../images/angel.jpeg';
+import wave from '../images/wave.jpeg'
 
 const Collection = () => {
     return (
@@ -32,6 +33,14 @@ const Collection = () => {
                     <div><span className='titleBoldCollection'>Title:&nbsp;</span>Annunciation</div>
                     <div><span className='titleBoldCollection'>Date:&nbsp;</span>1485-1492</div>
                 </div>
+            </div>
+            <div className='images'>
+            <img className='wave' src={wave} alt='greatwave'></img>
+            <div className='collectionLabel'>
+                <div className='label'><span className='titleBoldDisplay'>Title:&nbsp;</span>The Great Wave off Kanagawa</div>
+                <div className='label'><span className='titleBoldDisplay'>Artist:&nbsp;</span>Hokusai</div>
+                <div className='label'><span className='titleBoldDisplay'>Year:&nbsp;</span>1829–1832</div>
+            </div>
             </div>
             </div>
             </div>

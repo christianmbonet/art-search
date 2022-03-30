@@ -160,6 +160,13 @@ p {
     padding: 15px;
 }
 
+.wave {
+    display: flex;
+    height: 500px;
+    width: 850px;
+    padding: 15px;
+}
+
 .degasImage {
     display: flex;
     align-items: center;
@@ -274,11 +281,11 @@ p {
     top: 50%;
     transform: translateY(-50%);
     height: 50px;
-    background-color: darkslategrey;
-    color: yellowgreen;
+    background-color: black;
+    color: gainsboro;
     font-size: 20px;
     border-radius: 5px;
-    border: solid hotpink 2px;
+    border: solid gainsboro 2px;
     width: 5%;
     margin: 30px;
 }
@@ -293,11 +300,11 @@ p {
     top: 50%;
     transform: translateY(-50%);
     height: 50px;
-    background-color: darkslategrey;
-    color: yellowgreen;
+    background-color: black;
+    color: gainsboro;
     font-size: 20px;
     border-radius: 5px;
-    border: solid hotpink 2px;
+    border: solid gainsboro 2px;
     width: 5%;
     margin: 30px;
 }
