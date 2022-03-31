@@ -16,10 +16,13 @@ const Display = () => {
         })
     }, )
 
+    // const visualImage = `https://api.artic.edu/api/v1/artworks/${image}`
+
+    const staticImage = `https://api.artic.edu/api/v1/artworks/27992?fields=id,title,image_id`
+
     return (
         <div>
-            hello
-            <div alt='image' className='image'>{image}</div>
+            <div alt='image' className='image'>{staticImage}</div>
             {/* <div className='imageDisplay'>
                 <img className='wave' src={Wave} alt='hokusaiWave'></img>
             </div>
